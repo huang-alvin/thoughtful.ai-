@@ -9,7 +9,7 @@ MAX_DIMENSION_CM = 150 # cm
 MAX_VOLUME_CM_SQR = 1000000 # 1,000,000 cm^3
 MAX_MASS_KG = 20 # kg
 
-def sort(width, height, length, mass) -> str: 
+def sort(width, height, length, mass) -> Status: 
     is_bulky = False
     is_heavy = False
 
